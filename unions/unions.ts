@@ -22,3 +22,12 @@ function getDbid(id: number | string) {
 
 getDbid(3);
 getDbid("3");
+
+//arays
+const data: (number| string | boolean)[] = [1,2,3,"4", true];
+
+let pi:3.14 = 3.14
+
+let seatallotment: "aisle" | "middle" | "window";
+
+seatallotment = "aisle";

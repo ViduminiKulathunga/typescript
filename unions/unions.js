@@ -8,3 +8,8 @@ function getDbid(id) {
 }
 getDbid(3);
 getDbid("3");
+//arays
+var data = [1, 2, 3, "4", true];
+var pi = 3.14;
+var seatallotment;
+seatallotment = "aisle";
