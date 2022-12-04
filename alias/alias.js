@@ -11,3 +11,4 @@ var myUser = {
     isActive: true
 };
 myUser.name = "Amila";
+var myAccount;
