@@ -1,7 +1,7 @@
 class User {
-  email: string;
-  name: string;
-  readonly city: string = "";
+  public email: string;
+  private name: string;
+  private readonly city: string = "";
 
   constructor(email: string, name: string) {
     this.email = email;
@@ -10,4 +10,3 @@ class User {
 }
 
 const vidumini = new User("vidu@gmail.com", "Vidumini");
-
