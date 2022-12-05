@@ -1,6 +1,7 @@
 class Person {
   private readonly city: string = "";
   private _courseCount: number = 1;
+  protected _course: number = 1;
 
   constructor(public email: string, public name: string) {}
 
@@ -21,6 +22,14 @@ class Person {
 
   private deleteToken(): void {
     console.log("Token Deleted.");
+  }
+}
+
+class SubPerson extends Person {
+  isFamiliy: boolean = true;
+
+  changeCourseCount(): void {
+    this._course = 4;
   }
 }
 

@@ -5,6 +5,7 @@ class Person {
         this.name = name;
         this.city = "";
         this._courseCount = 1;
+        this._course = 1;
     }
     get getEmail() {
         return `Email apple${this.email}`;
@@ -20,6 +21,15 @@ class Person {
     }
     deleteToken() {
         console.log("Token Deleted.");
+    }
+}
+class SubPerson extends Person {
+    constructor() {
+        super(...arguments);
+        this.isFamiliy = true;
+    }
+    changeCourseCount() {
+        this._course = 4;
     }
 }
 const person1 = new Person("vidu@gmail.com", "Vidumini");
