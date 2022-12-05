@@ -4,7 +4,7 @@ const User = {
   isActive: true,
 };
 
-function createUser({ name: string, isPaid: boolean }) {}
+function createUser({ name, isPaid }: { name: string; isPaid: boolean }) {}
 
 createUser({ name: "Vidumini", isPaid: false });
 

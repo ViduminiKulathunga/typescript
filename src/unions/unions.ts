@@ -31,3 +31,5 @@ let pi:3.14 = 3.14
 let seatallotment: "aisle" | "middle" | "window";
 
 seatallotment = "aisle";
+
+export {}
