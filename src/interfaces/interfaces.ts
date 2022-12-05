@@ -39,3 +39,5 @@ const user: Admin = {
 };
 
 user.googleId = "google";
+
+export {}
